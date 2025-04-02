@@ -7,7 +7,7 @@ import {
   FaGitAlt,
   FaServer,
 } from "react-icons/fa";
-import { SiDjango, SiFlask, SiTailwindcss, SiMongodb, SiMysql } from "react-icons/si";
+import {  SiFlask, SiTailwindcss, SiMongodb, SiMysql } from "react-icons/si";
 
 function About() {
   const skills = [
@@ -15,7 +15,6 @@ function About() {
     { name: "React.js", icon: <FaReact className="text-blue-500" /> },
     { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
     { name: "Python", icon: <FaPython className="text-blue-400" /> },
-    { name: "Django", icon: <SiDjango className="text-green-700" /> },
     { name: "Flask", icon: <SiFlask className="text-gray-600" /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss className="text-blue-400" /> },
     { name: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
@@ -26,12 +25,12 @@ function About() {
   ];
 
   return (
-    <div className="about bg-gray-100 dark:bg-gray-900 py-12 px-6 md:px-12">
+    <div id="about" className="about bg-gray-100 dark:bg-gray-900 py-12 px-6 md:px-12">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8">
         {/* Left Side - Image */}
         <div className="md:w-1/2 flex justify-center">
           <img
-            src={process.env.PUBLIC_URL + "/home.jpg"}
+            src={process.env.PUBLIC_URL + "/home.png"}
             alt="Carter Musee"
             className="w-72 md:w-96 rounded-2xl shadow-lg"
           />

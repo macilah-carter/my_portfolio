@@ -3,7 +3,7 @@ import { FaCode, FaServer, FaLaptopCode, FaMobileAlt } from "react-icons/fa";
 
 function Services() {
   return (
-    <div className="max-w-6xl mx-auto px-6 py-12">
+    <div id="services"  className="max-w-6xl mx-auto px-6 py-12">
       <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-8">
         My Services
       </h2>

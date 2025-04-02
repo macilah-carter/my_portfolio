@@ -22,7 +22,7 @@ const projects = [
     title: "School Endpoint Management System",
     description: "A school management system with user authentication and role-based access.",
     tech: ["Node.js", "Express.js", "MongoDB"],
-    image: `${process.env.PUBLIC_URL}/school.webp.png`,
+    image: `${process.env.PUBLIC_URL}/school.png`,
     liveLink: "https://estate-management.com",
     githubLink: "https://github.com/macilah-carter/school_api",
   },
@@ -30,7 +30,7 @@ const projects = [
     title: "A blog Post API",
     description: "A RESTful API for managing blog posts, comments, and user authentication.",
     tech: ["Node.js", "Express.js", "mongoDB"],
-    image: `${process.env.PUBLIC_URL}/blog.webp.png`,
+    image: `${process.env.PUBLIC_URL}/blogpost.png`,
     liveLink: "https://mpesa-integration.com",
     githubLink: "https://github.com/macilah-carter/BlogPost_API",
   },
@@ -46,7 +46,7 @@ const projects = [
 
 function Works() {
   return (
-    <div className="works bg-gray-100 dark:bg-gray-900 py-12 px-6 md:px-12">
+    <div id="works" className="works bg-gray-100 dark:bg-gray-900 py-12 px-6 md:px-12">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-8">
           My Works
