@@ -7,7 +7,7 @@ import {
   FaGitAlt,
   FaServer,
 } from "react-icons/fa";
-import {  SiFlask, SiTailwindcss, SiMongodb, SiMysql } from "react-icons/si";
+import { SiFlask, SiTailwindcss, SiMongodb, SiMysql } from "react-icons/si";
 
 function About() {
   const skills = [
@@ -25,12 +25,15 @@ function About() {
   ];
 
   return (
-    <div id="about" className="about bg-gray-100 dark:bg-gray-900 py-12 px-6 md:px-12">
+    <div
+      id="about"
+      className="about bg-gray-100 dark:bg-gray-900 py-12 px-6 md:px-12"
+    >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8">
         {/* Left Side - Image */}
         <div className="md:w-1/2 flex justify-center">
           <img
-            src={process.env.PUBLIC_URL + "/home.png"}
+            src={process.env.PUBLIC_URL + "/home.jpeg"}
             alt="Carter Musee"
             className="w-72 md:w-96 rounded-2xl shadow-lg"
           />
@@ -57,13 +60,17 @@ function About() {
               <p className="text-4xl font-bold text-blue-600 dark:text-blue-400">
                 2+
               </p>
-              <p className="text-gray-700 dark:text-gray-300">Years Experience</p>
+              <p className="text-gray-700 dark:text-gray-300">
+                Years Experience
+              </p>
             </div>
             <div className="text-center">
               <p className="text-4xl font-bold text-blue-600 dark:text-blue-400">
                 12+
               </p>
-              <p className="text-gray-700 dark:text-gray-300">Projects Completed</p>
+              <p className="text-gray-700 dark:text-gray-300">
+                Projects Completed
+              </p>
             </div>
           </div>
         </div>
@@ -110,14 +117,35 @@ function About() {
 
           <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400">
-              Web Development Bootcamp
+              Software Engineering (12-Month Intensive Program)
             </h3>
             <p className="text-gray-700 dark:text-gray-300">
               Alx | 2023 - 2024
             </p>
             <p className="text-gray-600 dark:text-gray-400 mt-2">
-              Focused on modern web technologies, React.js, Node.js, and API
-              development.
+              ALX Africa Project-based training in software development with a
+              focus on real-world problem solving Covered backend and frontend
+              development, data structures, algorithms, and system design Built
+              and deployed multiple projects using Git, Linux, Python,
+              JavaScript, and SQL Collaborated in peer learning, code reviews,
+              and agile-style workflows
+            </p>
+          </div>
+
+          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+            <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400">
+              Mobile Application Development(16-week Intensive Program)
+            </h3>
+            <p className="text-gray-700 dark:text-gray-300">
+              Power Learn Project (PLP) | 2025
+            </p>
+            <p className="text-gray-600 dark:text-gray-400 mt-2">
+              Specialized training in mobile application development Built
+              cross-platform and/or native mobile apps using Flutter / Kotlin /
+              Java / React Native (use what applies) Implemented UI/UX best
+              practices, state management, and API integration Worked with REST
+              APIs, authentication, and local storage Developed real-world
+              mobile projects with version control using Git/GitHub
             </p>
           </div>
         </div>

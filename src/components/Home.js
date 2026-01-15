@@ -32,7 +32,7 @@ function Home() {
         {/* Right Section (Image) */}
         <div className="imageDiv md:w-1/2 flex justify-center">
           <img
-            src={`${process.env.PUBLIC_URL}/home.png`}
+            src={`${process.env.PUBLIC_URL}/home.jpeg`}
             alt="Carter Musee"
             className="image w-full md:mt-6 md:w-3/4 lg:w-2/3 rounded-2xl shadow-lg"
           />
