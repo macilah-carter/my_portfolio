@@ -15,8 +15,8 @@ const projects = [
     description: "A full-stack e-commerce website with authentication, cart, and payment integration.",
     tech: ["React.js", "Node.js", "MongoDB", "Tailwind CSS"],
     image: `${process.env.PUBLIC_URL}/eccomerce.png`,
-    liveLink: "https://school-bygekh4ks-carters-projects-eff7d606.vercel.app/",
-    githubLink: "https://github.com/yourusername/ecommerce-platform",
+    liveLink: "https://shoes-website-frontend.vercel.app/",
+    githubLink: "https://github.com/macilah-carter/shoes-website",
   },
   {
     title: "School Endpoint Management System",
